@@ -86,11 +86,29 @@ main {
     grid-template-rows: repeat(2, 1fr);
   }
 
+  .top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-head-n-story {
+    width: 600px;
+  }
+
   .first-card {
     grid-column: 1/2;
   }
 
   .sec-card {
+    grid-column: 2/4;
+  }
+
+  .third-card {
+    grid-column: 1/2;
+  }
+
+  .fourth-card {
     grid-column: 2/4;
   }
 }
